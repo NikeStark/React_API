@@ -1,0 +1,9 @@
+h1{
+    display: flex;
+    justify-content: space-around;
+    color: deeppink;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}

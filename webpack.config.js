@@ -77,7 +77,7 @@ module.exports = (env = {}) => { // empty configuration the same like export nod
         plugins: [
             new BundleAnalyzerPlugin(),
             new HtmlWebpackPlugin({ //in order to work with our index.html
-                title: 'JWT_authentication', //in order to exchange title in html-file
+                title: 'API_DOGs', //in order to exchange title in html-file
                 template: 'public/index.html'
             }),
             new MiniCssExtractPlugin({ //for prodaction build

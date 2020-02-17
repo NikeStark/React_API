@@ -1,0 +1,12 @@
+.search{
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+    font-size: 13px;
+    font-style: oblique;
+    letter-spacing: 0.2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: mediumblue;
+    margin-bottom: 20px;
+    padding: 5px;
+}

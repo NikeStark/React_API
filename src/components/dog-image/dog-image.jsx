@@ -1,10 +1,17 @@
 import React from 'react';
+import ItemDogs from '../item-dogs/item-dogs.jsx';
 
 import './dog-image.css';
 
-const DogImage = ({url}) => {
+const DogImage = ({dogImages}) => {
+        const dogList = dogImages.map((dogUrl, id) => {
+            return <ItemDogs key={id} url={dogUrl}/>
+        })
+
     return(
-            <img src={url} className="dog-images"></img>
+        <div className='container'>
+            {dogList}
+        </div>
     )
 }
 
